@@ -1,0 +1,70 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+header {
+   text-align: center;
+   color: green;
+}
+
+body {
+   background-color: rgb(247, 242, 243);
+   text-align: center;
+   color: white;
+}
+
+#survey-form {
+   background-color: rgb(91, 91, 247);
+   max-width: 500px;
+   margin: 30px auto;
+   padding: 30px 20px;
+   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+   text-align: left;
+   margin-bottom: 30px;
+}
+
+.form-control label {
+   display: block;
+   margin-bottom: 8px;
+
+}
+
+.form-control input,
+.form-control textarea
+{
+   padding: 8px;
+   width: 90%;
+   height: 20px;
+   border-radius: 4px;
+}
+
+.form-control select{
+   margin-bottom: 10px;
+   width: 90%;
+   font-size: 15px;
+   height: 30px;
+   /* border-radius: 4px; */
+
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+   display: inline-block;
+   /* margin-top: 10px; */
+   width: auto;
+}
+
+#submit {
+   width: 100%;
+   display: block;
+   height: 30px;
+   background-color: green;
+   border: 2px solid;
+   border-radius: 4px;
+   padding: 5px;
+   margin-top: 10px;
+   margin-bottom: 20px;
+}
